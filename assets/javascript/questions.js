@@ -88,12 +88,11 @@ C) German Shepherd
 D) Labrador,
 ]
 
-correctAnswerArray=[1. 
-    C) 42
+correctAnswerArray=[
+    1. C) 42
 
     2. D) Paws
     
-    3. False. Dogs can see multiple colors.
     
     4. C) Sit
     
@@ -115,7 +114,6 @@ correctAnswerArray=[1.
     
     13. C) Basenji
     
-    14. False. Dalmatian puppies are born white; their spots come in later.
     
     15. B) Miniature Dachshund
     
@@ -125,7 +123,6 @@ correctAnswerArray=[1.
     
     18. C) Bella
     
-    19. True, according to the ASPCA
     
     20. Labrador]
 
