@@ -16,12 +16,15 @@ I chose the advanced version to challenge myself and to learn more
 #### Screenshots
 
 ![Starting Page](assets/images/screenshot1.png)
+
 Press start button to start
 
 ![Question Page](assets/images/screenshot2.png)
+
 Example of a question 
 
 ![Game Page](assets/images/screenshot3.png)
+
 GIF showing the result
 
 ## Technologies used
@@ -37,18 +40,17 @@ GIF showing the result
 * Bootstrap
 
 ## Resources
-* GIPHY :https://giphy.com/
-* Trivia Questions retrieved from: https://www.petful.com/misc/dog-trivia-questions/
-* Google Fonts
+- GIPHY :https://giphy.com/
+- Trivia Questions retrieved from:https://www.petful.com/misc/dog-trivia-questions/
+- Google Fonts
   
 ## Creator
 
-* Kimmy Kablitz - *HTML/CSS/JS/JQuery*
+* **Kimmy Kablitz** - *HTML/CSS/JS* - [Kim Kablitz](https://github.com/kimkablitz)
 
 ## Acknowledgements
 
-* Aaron Linton
-* Sofi Takei & Nathan Patterson
+* Thanks to Aaron and the staff from Rutgers Coding Bootcamp for additional help.Additional help from my dedicated friends Nathan& Sofi
   
 
 
