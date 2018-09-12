@@ -21,6 +21,9 @@ window.onload = function () {
         "What is the most popular breed of dog, according to the American Kennel Club’s registrations?",
     ]
     var qArr = questionArray[Symbol.iterator]()
+    var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8', 'question9', 'question10', 'question11', 'question12', 'question13','question14','question15','question16','question17'];
+    var gArr =gifArray[Symbol.iterator]()
+    var theGif;
     var correctA = ["C", "D", "C", "B", "C", "A", "C", "D", "C", "D", "B", "C", "B", "C", "D", "C", "D"]
     var cArr = correctA[Symbol.iterator]()
     const choicesArray = [
@@ -145,6 +148,7 @@ window.onload = function () {
     var count;const RESETCOUNT = 10; var timerID;
     var choices;var answers;
     var timerOutOfTime = 0;var wrongAnswerClicked = 0;
+   
     //timer
     function timer() {
         count = count - 1;
@@ -160,6 +164,9 @@ window.onload = function () {
         $(".question").html("Out of time!")
         $('.answerList').hide()
         $('#startBtn').show()
+        $('#gif').html('<img src = "assets/images/'+ theGif +'.gif" width = "400px">')
+        
+        
         unanswered++
 
     }
@@ -169,6 +176,8 @@ window.onload = function () {
         wrongAnswerClicked = 1;
         $(".question").text("That was not it")
         $("#correctedAnswer").text("The correct answer was " + choices)
+        $('#gif').html('<img src = "assets/images/'+ theGif +'.gif" width = "400px">')
+        
         $('.answerList').hide()
         $('#startBtn').show()
         wrongAnswer++
@@ -176,14 +185,20 @@ window.onload = function () {
     //smart(chose the correct)
     function correct() {
         $(".question").text("That is it")
+        $('#gif').html('<img src = "assets/images/'+ theGif +'.gif" width = "400px">')
         $('.answerList').empty()
         $('#startBtn').text("next")
         $('#startBtn').show()
         correctAnswer++
     }
-    //generate next questions & answers
+    //generate gif
+    function myGif(){
+    theGif =gArr.next().value
+        $('#gif').html('<img src = "assets/images/'+ theGif +'.gif" width = "400px" height="250px">');}
+        console.log(theGif)
+    //generate next questions & answers 
     function nextQuest() {
-
+        
         theQuestion = qArr.next().value
         choices = chArr.next().value;
         answers = Object.keys(choices).map(function (c) {
@@ -192,7 +207,7 @@ window.onload = function () {
         $('.question').html(theQuestion)
         $('.answerList').html(answers);
         $("#correctedAnswer").empty()
-
+        $('#gif').empty()
         $('.answerList').show();
         // Reset if out of time.
         if (timerOutOfTime) {
@@ -203,6 +218,7 @@ window.onload = function () {
             $("#timeLeft").show();
             wrongAnswerClicked = 0;
         }
+        
     }
 
     //Start Btn
@@ -215,18 +231,18 @@ window.onload = function () {
         clearInterval(timerID)
         timerID = setInterval(timer, 1000);
         choices = cArr.next().value;
+
+    
     })
 
     //when an answer is clicked
     $('.answerList').on('click', 'li', function (event) {
         clearInterval(timerID);
         $("#timeLeft").hide();
-
-        
+        myGif()
         if ($(this).data('answer') === choices) {
             correct();
         }
-        
         else {
             ignorant()
         }
