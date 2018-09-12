@@ -17,6 +17,7 @@ html, body {
 button{
     align-self: center;
     margin-top: 5%;
+    margin-bottom:5%;
 
 }
 #currentQuestion{
@@ -26,11 +27,21 @@ button{
 .question{
     font-size: 40px;
 }
+.answerList{
+    height: 80%;
+    
+}
 li{
-    width: 100%;
-    height:300%;
     background-color:purple;
+    width: 100%;
+    height:20%;
+    color:white;
+    text-align: center;
+    
 }
 li:hover{
     background-color:green;
+}
+#gif{
+    margin-bottom:20%;
 }
