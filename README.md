@@ -5,7 +5,7 @@ Week 5 Assignment: Trivia Game
 ## A Dog Trivia
 Little Trivia Game about dogs inspired by my dog Cibi/Cumulonimbus
 
-[Start Page]
+
 ## Motivation
 
 I chose the advanced version to challenge myself and to learn more
@@ -14,10 +14,13 @@ I chose the advanced version to challenge myself and to learn more
 *Play here*: https://kimkablitz.github.io/Trivia-Game/
 
 #### Screenshots
+
 ![Starting Page](assets/images/screenshot1.png)
 Press start button to start
+
 ![Question Page](assets/images/screenshot2.png)
 Example of a question 
+
 ![Game Page](assets/images/screenshot3.png)
 GIF showing the result
 
