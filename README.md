@@ -29,6 +29,7 @@ I chose the advanced version to challenge myself and to learn more
 
 # Resources
 * GIPHY :https://giphy.com/
+* Trivia Questions retrieved from: https://www.petful.com/misc/dog-trivia-questions/
 * Google Fonts
   
 # Creator
