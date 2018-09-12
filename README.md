@@ -18,14 +18,18 @@ I chose the advanced version to challenge myself and to learn more
 # Technologies used
 
 * Javascript
-* Google Fonts
 * JQuery
+
   
 
 # Built with
 
 * VSC
 * Bootstrap
+
+# Resources
+* GIPHY :https://giphy.com/
+* Google Fonts
   
 # Creator
 
@@ -34,7 +38,6 @@ I chose the advanced version to challenge myself and to learn more
 # Acknowledgements
 
 * Aaron Linton
-* Nathan Patterson
-* Sofi Takei
+
 
 
