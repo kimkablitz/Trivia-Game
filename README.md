@@ -1,44 +1,52 @@
-# Trivia-Game
+## Trivia-Game
 
 Week 5 Assignment: Trivia Game
 
-# A Dog Trivia
+## A Dog Trivia
 Little Trivia Game about dogs inspired by my dog Cibi/Cumulonimbus
 
-# Motivation
+[Start Page]
+## Motivation
 
 I chose the advanced version to challenge myself and to learn more
 
-# Getting Started
+## Getting Started
 *Play here*: https://kimkablitz.github.io/Trivia-Game/
 
+#### Screenshots
+![Starting Page](assets/images/screenshot1.png)
+Press start button to start
+![Question Page](assets/images/screenshot2.png)
+Example of a question 
+![Game Page](assets/images/screenshot3.png)
+GIF showing the result
 
-
-
-# Technologies used
+## Technologies used
 
 * Javascript
 * JQuery
 
   
 
-# Built with
+## Built with
 
 * VSC
 * Bootstrap
 
-# Resources
+## Resources
 * GIPHY :https://giphy.com/
 * Trivia Questions retrieved from: https://www.petful.com/misc/dog-trivia-questions/
 * Google Fonts
   
-# Creator
+## Creator
 
 * Kimmy Kablitz - *HTML/CSS/JS/JQuery*
 
-# Acknowledgements
+## Acknowledgements
 
 * Aaron Linton
+* Sofi Takei & Nathan Patterson
+  
 
 
 

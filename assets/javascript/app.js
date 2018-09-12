@@ -145,7 +145,7 @@ window.onload = function () {
 
     ]
     var chArr = choicesArray[Symbol.iterator]()
-    var count; const RESETCOUNT = 10; var timerID;
+    var count; const RESETCOUNT = 30; var timerID;
     var choices; var answers;
     var timerOutOfTime = 0; var wrongAnswerClicked = 0;
 
