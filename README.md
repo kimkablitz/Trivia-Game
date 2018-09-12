@@ -50,7 +50,7 @@ GIF showing the result
 
 ## Acknowledgements
 
-* Thanks to Aaron and the staff from Rutgers Coding Bootcamp for additional help.Additional help from my dedicated friends Nathan& Sofi
+* Thanks to Aaron and the staff from the UW Coding Bootcamp for additional help.Additional help from my dedicated friends Nathan& Sofi
   
 
 
