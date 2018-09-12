@@ -183,7 +183,6 @@ window.onload = function () {
         $(".question").text("That is it")
         $('#gif').html('<img src = "assets/images/' + theGif + '.gif" width = "400px">')
         $('.answerList').empty()
-        $('#startBtn').text("next")
         $('#startBtn').show()
         correctAnswer++
     }
@@ -221,6 +220,7 @@ window.onload = function () {
     //Start Btn
     $(document).on("click", "#startBtn", function () {
         $(this).hide()
+        
         nextQuest()
 
         count = RESETCOUNT
@@ -236,6 +236,7 @@ window.onload = function () {
     $('.answerList').on('click', 'li', function (event) {
         clearInterval(timerID);
         $("#timeLeft").hide();
+        $('#startBtn').text("next")
         myGif()
         if ($(this).data('answer') === choices) {
             correct();
