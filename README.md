@@ -3,14 +3,14 @@
 Week 5 Assignment: Trivia Game
 
 # A Dog Trivia
-Little Trivia Game on my dog - Cibi/ Cumulonimbus, of her eating sleeping and playing habits
+Little Trivia Game about dogs inspired by my dog Cibi/Cumulonimbus
 
 # Motivation
 
 I chose the advanced version to challenge myself and to learn more
 
 # Getting Started
-*Play here*: 
+*Play here*: https://kimkablitz.github.io/Trivia-Game/
 
 
 
@@ -19,6 +19,7 @@ I chose the advanced version to challenge myself and to learn more
 
 * Javascript
 * Google Fonts
+* JQuery
   
 
 # Built with
@@ -32,6 +33,8 @@ I chose the advanced version to challenge myself and to learn more
 
 # Acknowledgements
 
-* Not yet ;)
+* Aaron Linton
+* Nathan Patterson
+* Sofi Takei
 
 
