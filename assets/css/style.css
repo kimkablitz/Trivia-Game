@@ -6,7 +6,7 @@ html, body {
     text-align: center;
   }
 
-  .card {
+  .big-container {
     margin: 0 auto; /* Added */
     margin-top: 5%;
     float: none; /* Added */
@@ -44,4 +44,7 @@ li:hover{
 }
 #gif{
     margin-bottom:20%;
+}
+canvas{
+    height:100%;
 }
